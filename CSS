@@ -1,0 +1,152 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+
+body {
+  font-family: Helvetica, Sans-serif;
+  margin: 0;
+  padding: 70px;
+  padding-top: 80px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 65px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  border: 1px solid #e7e7e7;
+  background-color: #d3d3d3;
+}
+
+.logo > img {
+  width: 100%;
+  height: 100%;
+  max-width: 300px;
+  display: inline;
+  padding: 10px;
+}
+
+nav {
+  width: 100%;
+  max-width: 300px;
+  height: 50px;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: left;
+  text-align: left;
+padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-weight: bold;
+  float: right;
+}
+
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding:10;
+}
+li a {
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  float: left;
+}
+
+li a:hover {
+  background-color: #c80079;
+  border-radius: 5px;
+}
+
+.aboutp {
+  display: flex;
+  text-align: center;
+
+}
+#pricing, #about, #contact-us {
+  display: flex;
+  justify-content: center;
+}
+
+.price-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  margin: 10px;
+  border: 2px solid #4b3832;
+  border-radius: 5px;
+
+}
+.price-option > div {
+  background-color: #d3d3d3;
+  color: #c80079;
+  width: 90%;
+  margin: 10px;
+}
+.box {
+  line-height: 1.8;
+}
+
+.fform {
+  display: block;
+  text-align: center;
+}
+#form {
+  background-color: #d3d3d3;
+  border-radius: 4px;
+  padding: 12px 20px;
+  width: 350px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #c80079;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  cursor: pointer;
+  width: 100%;
+  display: inline;
+}
+
+#video {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+}
