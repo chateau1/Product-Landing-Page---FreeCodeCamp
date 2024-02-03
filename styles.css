@@ -25,9 +25,7 @@ header {
 }
 
 #header-img {
-  width: 100%;
-  height: 100%;
-  max-width: 300px;
+  height: 50px;
   display: inline;
   padding: 10px;
 }
@@ -117,14 +115,17 @@ li a:hover {
   border-radius: 4px;
   padding: 12px 20px;
   width: 350px;
+  max-width: 100%;
   display: inline-block;
+  box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
 }
 
 input, select {
-  width: 100%;
+  width: 90%;
+  max-width: auto;
   padding: 10px;
   margin: 5px 0;
   justify-content: center;
@@ -146,7 +147,9 @@ input[type=button], input[type=submit], input[type=reset] {
   display: flex;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 40px;
   left: 0;
   right: 0;
   top: 0;
+}
 }
